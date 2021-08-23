@@ -1,0 +1,38 @@
+body {
+    font-family: monospace;
+    font-size: 1em;
+    color: #111;
+    margin: 0;
+}
+
+#terminal-container {
+    width: 960px;
+    height: 600px;
+
+    margin: 0 auto;
+    padding: 2px;
+}
+
+#terminal-container .terminal {
+    background-color: #111;
+    color: #fafafa;
+    padding: 2px;
+
+}
+
+#terminal-container .terminal .terminal-cursor {
+    background-color: #fafafa;
+}
+
+.xterm {
+    padding: 2em;
+}
+
+.xterm-viewport {
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+
+.xterm .xterm-viewport {
+    overflow-y: auto;
+}
